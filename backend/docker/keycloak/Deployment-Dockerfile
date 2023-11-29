@@ -1,0 +1,7 @@
+FROM quay.io/keycloak/keycloak:21.0.2
+
+COPY docker/keycloak/data/bench-backend-realm.json /opt/keycloak/data/import/bench-backend-realm.json
+COPY docker/keycloak/data/theme /opt/keycloak/themes/bench
+COPY docker/keycloak/deployments/*.jar /opt/keycloak/providers
+
+ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start", "--health-enabled=true", "--hostname-strict=false", "--proxy=edge", "--import-realm"]
