@@ -1,4 +1,4 @@
-FROM quay.io/keycloak/keycloak:21.0.2
+FROM quay.io/keycloak/keycloak:22.0.0
 ENV TZ=Europe/Brussels
 USER root
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime\
