@@ -3,7 +3,9 @@
     <div id="kc-form">    
       <div id="kc-form-wrapper">
         <#if section = "header">
-            ${msg("loginAccountTitle")}
+            <h2>${msg("inventoryPageTitle")}</h2>
+
+            <h1>${msg("loginAccountTitle")}</h1>
         <#elseif section = "form">
         
         <#if realm.password && social.providers??>
