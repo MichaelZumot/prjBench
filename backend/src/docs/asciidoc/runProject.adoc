@@ -1,0 +1,10 @@
+= How to install and run the project
+
+== Install npm CLI
+
+=== First time running the angular project ? From your powershell console, go to the /frontend directory and run: npm install -g @angular/cli.
+=== Once installed, run: npm install to install all necessary packages.
+
+== Run the entire project
+
+=== To run the database (docker file), the Spring-Boot backend, and the Angular frontend, go to the root folder and run: ./runprj.bat
