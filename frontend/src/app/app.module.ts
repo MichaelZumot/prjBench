@@ -38,10 +38,7 @@ export class AppModule {
       },
       initOptions: {
         onLoad: 'login-required',
-        // checkLoginIframe: false,
       },
-      // enableBearerInterceptor: true,
-      // bearerExcludedUrls: ['/assets', '/clients/public'],
     });
   }
 }
