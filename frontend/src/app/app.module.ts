@@ -40,6 +40,12 @@ export class AppModule {
       initOptions: {
         onLoad: 'login-required'
       }
-    }).then(r => console.log("There is a problem with keycloak!"));
+    }).then(r => {
+      if (r){
+        this.keycloak.getToken().then(token => console.log(token));
+      } else {
+        console.log('No Token found!')
+      }
+    });
   }
 }
