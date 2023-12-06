@@ -1,4 +1,4 @@
-id,title,content,bench_member_id,tags,rating,comment_id,created_at,updated_at
+id,title,content,member_id,tags,rating,comment_id,created_at,updated_at
 1,Introduction to Java,Java is a powerful programming language.,2500000000000,JAVA,5,1000000000000,2022-10-15,2022-11-05
 2,Angular Basics,Learn the fundamentals of Angular framework.,2600000000000,ANGULAR,4,1100000000000,2022-09-20,2022-10-25
 3,Python Tips and Tricks,Discover useful tips for Python development.,2700000000000,PYTHON,4,1200000000000,2022-08-12,2022-09-30
