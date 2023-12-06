@@ -10,10 +10,7 @@ import { KeycloakService, KeycloakAngularModule } from 'keycloak-angular';
 import {environment} from "../environments/environment";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent
-  ],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,9 +19,8 @@ import {environment} from "../environments/environment";
     KeycloakAngularModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-
 export class AppModule {
   constructor(private readonly keycloak: KeycloakService) {
     this.initKeycloak();

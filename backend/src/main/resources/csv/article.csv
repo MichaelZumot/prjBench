@@ -1,0 +1,7 @@
+id,title,content,member_id,tags,rating,comment_id,created_at,updated_at
+1,Introduction to Java,Java is a powerful programming language.,2500000000000,JAVA,5,1000000000000,2022-10-15,2022-11-05
+2,Angular Basics,Learn the fundamentals of Angular framework.,2600000000000,ANGULAR,4,1100000000000,2022-09-20,2022-10-25
+3,Python Tips and Tricks,Discover useful tips for Python development.,2700000000000,PYTHON,4,1200000000000,2022-08-12,2022-09-30
+4,Web Development Best Practices,Explore best practices for web development.,2800000000000,WEBDEV,5,1300000000000,2022-07-05,2022-08-28
+5,Database Design Principles,Learn key principles for designing databases.,2900000000000,DATABASE,3,1400000000000,2022-06-18,2022-07-22
+6,JavaScript Fundamentals,Master the fundamentals of JavaScript.,3000000000000,JAVASCRIPT,4,1500000000000,2022-05-02,2022-06-15
