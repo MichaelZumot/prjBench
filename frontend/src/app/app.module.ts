@@ -29,8 +29,8 @@ export class AppModule {
     this.initKeycloak();
   }
 
-  private initKeycloak(): void {
-    this.keycloak.init({
+  private async initKeycloak(): Promise<void> {
+    await this.keycloak.init({
       config: {
         url: 'http://localhost:8180/',
         realm: 'Bench',
@@ -40,5 +40,7 @@ export class AppModule {
         onLoad: 'login-required',
       },
     });
+    const token = await this.keycloak.getToken();
+    console.log('Token',token);
   }
 }
