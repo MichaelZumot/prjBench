@@ -35,3 +35,4 @@ build/
 ### Angular ###
 /frontend/node_modules
 /backend/.env
+/backend/src/test/http/http-client.private.env.json

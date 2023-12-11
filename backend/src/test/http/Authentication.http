@@ -1,0 +1,20 @@
+### Get an access token from Keycloak for a user
+
+POST {{keycloakUrl}}/realms/Bench/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=bench-frontend-api&username={{username}}&password={{password}}&grant_type=password
+
+> {%
+    client.global.set("access_token", response.body.access_token)
+%}
+
+### Get an access token for client-credentials
+POST {{keycloakUrl}}/realms/Bench/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id={{clientId}}&client_secret={{clientSecret}}&grant_type=client_credentials
+
+> {%
+    client.global.set("access_token", response.body.access_token)
+%}
