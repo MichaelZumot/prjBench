@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse, HttpResponse } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Observable, catchError, tap, throwError } from "rxjs";
+import { Observable, catchError, throwError } from "rxjs";
 
 @Injectable({
   providedIn: "root",
@@ -17,10 +17,8 @@ export class BackendService {
       .pipe(
         catchError((error: HttpErrorResponse) => {
           if (error.status === 200) {
-            // Handle the response as a success
-            return throwError(error.error); // or any other logic based on your response
-          } else {
-            // Handle the error as usual
+            return throwError(error.error); 
+          } else {   
             return throwError(error);
           }
         })
