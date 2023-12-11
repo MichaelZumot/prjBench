@@ -18,7 +18,7 @@ export class AuthService {
     this.initKeycloak();
   }
 
-  private createAuthorizationHeader(): HttpHeaders {
+    private createAuthorizationHeader(): HttpHeaders {
     const token = this.keycloak.getKeycloakInstance().token;
     return new HttpHeaders({
       Authorization: `Bearer ${token}`,

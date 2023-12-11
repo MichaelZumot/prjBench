@@ -22,7 +22,6 @@ public class TokenController {
     public ResponseEntity<String> receiveToken(@RequestHeader Map<String, String> headers) {
         log.info("Received Headers: " + headers);
         try {
-            // return new ResponseEntity<>("Token received and processed", HttpStatus.OK);
             return new ResponseEntity<>("Token received and processed", HttpStatus.OK);
 
         } catch (Exception e) {
