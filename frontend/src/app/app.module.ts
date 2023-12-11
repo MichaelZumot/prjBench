@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
-import { KeycloakAngularModule} from 'keycloak-angular';
-import { AuthService } from '../../service/authService';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -23,4 +21,5 @@ import { AuthService } from '../../service/authService';
 })
 export class AppModule {
   constructor() {}
+
 }
