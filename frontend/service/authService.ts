@@ -29,7 +29,7 @@ export class AuthService {
     const headers = this.createAuthorizationHeader();
     console.log('Token before sending request:', headers.get('Authorization'));
   
-    return this.http.get(this.tokenUrl, { headers }).pipe(
+    return this.http.get(this.tokenUrl, { headers, responseType: 'text' }).pipe(
       catchError((error: HttpErrorResponse) => {
         if (error.status === 401) {
           console.error('Unauthorized error:', error);

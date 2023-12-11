@@ -7,7 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { KeycloakAngularModule} from 'keycloak-angular';
-import { AuthService } from '../../service/authService';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
