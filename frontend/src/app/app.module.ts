@@ -22,4 +22,5 @@ import { KeycloakAngularModule} from 'keycloak-angular';
 })
 export class AppModule {
   constructor() {}
+
 }
