@@ -1,0 +1,4 @@
+ALTER TABLE member
+    ALTER COLUMN createdDate DROP NOT NULL;
+
+
