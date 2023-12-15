@@ -1,7 +1,7 @@
-id;email;first_name;last_name;active;role;createdDate;updatedDate
-2500000000000;sophie.moerman@inetum-realdolmen.world;Sophie;Moerman;TRUE;admin;2022-12-04;
-2600000000000;zeneb.essatti@inetum-realdolmen.world;Zeneb;Es Satti;TRUE;admin;2022-12-04;
-2700000000000;mustafa.azoud@inetum-realdolmen.world;Mustafa;Azoud;TRUE;admin;2022-12-04;
-2800000000000;michael.zumot@inetum-realdolmen.world;Micha�l;Zumot;TRUE;admin;2022-12-04;
-2900000000000;vandenbroeck@inetum-realdolmen.world;Christiaan;Van Den Broeck;TRUE;admin;2022-12-04;
-3000000000000;othman.belarabi@inetum-realdolmen.world;Othman;Belarabi;TRUE;admin;2022-12-04;
+id,email,first_name,last_name,active,role
+2500000000000,sophie.moerman@inetum-realdolmen.world,Sophie,Moerman,TRUE,ADMINISTRATOR
+2600000000000,zeneb.essatti@inetum-realdolmen.world,Zeneb,Es Satti,TRUE,ADMINISTRATOR
+2700000000000,mustafa.azoud@inetum-realdolmen.world,Mustafa,Azoud,TRUE,ADMINISTRATOR
+2800000000000,michael.zumot@inetum-realdolmen.world,Micha�l,Zumot,TRUE,ADMINISTRATOR
+2900000000000,vandenbroeck@inetum-realdolmen.world,Christiaan,Van Den Broeck,TRUE,ADMINISTRATOR
+3000000000000,othman.belarabi@inetum-realdolmen.world,Othman,Belarabi,TRUE,ADMINISTRATOR
